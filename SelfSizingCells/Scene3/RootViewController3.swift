@@ -31,9 +31,10 @@ class RootViewController3: UITableViewController {
         super.viewWillLayoutSubviews()
         if !didInitialLayout {
             didInitialLayout = true
-            self.tableView.reloadData()
-            self.tableView.layoutIfNeeded()
-            self.tableView.reloadData()
+            UIView.performWithoutAnimation {
+                self.tableView.beginUpdates()
+                self.tableView.endUpdates()
+            }
         }
     }
     
