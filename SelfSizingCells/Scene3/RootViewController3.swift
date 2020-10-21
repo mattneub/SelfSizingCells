@@ -15,6 +15,11 @@ class RootViewController3: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let b = UIBarButtonItem(primaryAction: UIAction(title: "Next") { _ in
+            self.navigationController?.pushViewController(RootViewController4(), animated: true)
+        })
+        self.navigationItem.rightBarButtonItem = b
+        
         let url = Bundle.main.url(forResource:"trivia", withExtension: "txt")
         let s = try! String(contentsOf:url!)
         let arr = s.components(separatedBy:"\n")

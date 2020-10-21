@@ -19,6 +19,7 @@
 		810471D62540811C00B94E29 /* RootViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810471D52540811C00B94E29 /* RootViewController2.swift */; };
 		810471DE2540853000B94E29 /* Cell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 810471DC2540837600B94E29 /* Cell2.xib */; };
 		810471E12540857C00B94E29 /* RootViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810471E02540857C00B94E29 /* RootViewController3.swift */; };
+		81F1691B25409F2700E82480 /* RootViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F1691A25409F2700E82480 /* RootViewController4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		810471D52540811C00B94E29 /* RootViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController2.swift; sourceTree = "<group>"; };
 		810471DC2540837600B94E29 /* Cell2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Cell2.xib; sourceTree = "<group>"; };
 		810471E02540857C00B94E29 /* RootViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController3.swift; sourceTree = "<group>"; };
+		81F1691A25409F2700E82480 /* RootViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				810471D82540814D00B94E29 /* Scene1 */,
 				810471DA2540816500B94E29 /* Scene2 */,
 				810471E32540858D00B94E29 /* Scene3 */,
+				81F1691D25409F3300E82480 /* Scene4 */,
 				810471D22540802500B94E29 /* StringDrawer.swift */,
 				810471C925407ED600B94E29 /* trivia.txt */,
 				810471B925407E1000B94E29 /* Main.storyboard */,
@@ -107,6 +110,14 @@
 				810471E02540857C00B94E29 /* RootViewController3.swift */,
 			);
 			path = Scene3;
+			sourceTree = "<group>";
+		};
+		81F1691D25409F3300E82480 /* Scene4 */ = {
+			isa = PBXGroup;
+			children = (
+				81F1691A25409F2700E82480 /* RootViewController4.swift */,
+			);
+			path = Scene4;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,6 +197,7 @@
 				810471B425407E0F00B94E29 /* AppDelegate.swift in Sources */,
 				810471D32540802500B94E29 /* StringDrawer.swift in Sources */,
 				810471B625407E1000B94E29 /* SceneDelegate.swift in Sources */,
+				81F1691B25409F2700E82480 /* RootViewController4.swift in Sources */,
 				810471E12540857C00B94E29 /* RootViewController3.swift in Sources */,
 				810471CD25407EE800B94E29 /* RootViewController.swift in Sources */,
 			);
