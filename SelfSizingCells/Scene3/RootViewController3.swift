@@ -32,8 +32,10 @@ class RootViewController3: UITableViewController {
         if !didInitialLayout {
             didInitialLayout = true
             UIView.performWithoutAnimation {
-                self.tableView.beginUpdates()
-                self.tableView.endUpdates()
+//                self.tableView.beginUpdates()
+//                self.tableView.endUpdates()
+                // or can say it this way instead
+                self.tableView.performBatchUpdates(nil, completion: nil)
             }
         }
     }

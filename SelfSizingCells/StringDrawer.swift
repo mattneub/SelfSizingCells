@@ -19,7 +19,7 @@ class StringDrawer: UIView {
             with: CGSize(width:self.bounds.width, height:10000),
             options: [.truncatesLastVisibleLine, .usesLineFragmentOrigin],
             context: nil).size
-        return CGSize(width: UIView.noIntrinsicMetric, height: measuredSize.height.rounded(.up) + 5)
+        return CGSize(width: UIView.noIntrinsicMetric, height: measuredSize.height.rounded(.up) + 1)
     }
 
 }
